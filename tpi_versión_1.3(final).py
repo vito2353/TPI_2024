@@ -6,7 +6,7 @@ def jugar_ahorcado():
     #El jugador debe adivinar una palabra letra por letra antes de alcanzar el límite de errores
     
     print("¡Bienvenido al juego del Ahorcado!")
-    palabra = input("Escribe la palabra secreta (nadie más debe verla): ").lower()
+    palabra = input("Escribe la palabra secreta").lower()
     print("\n" * 50)  # Limpia la pantalla para ocultar la palabra ingresada
     errores_permitidos = 5
     intentos = 0
@@ -41,7 +41,7 @@ def jugar_numero_secreto():
     #El jugador debe adivinar un número entre 1 y 100
     
     print("¡Bienvenido al juego del Número Secreto!")
-    print("Estoy pensando en un número entre 1 y 100. ¿Puedes adivinar cuál es?")
+    print("Adivina un número aleatorio entre 1 y 100")
     numero_secreto = random.randint(1, 100)
 
     while True:
@@ -86,7 +86,7 @@ Elige el juego que quieres jugar:
         elif opcion == "2":
             jugar_numero_secreto()
         elif opcion == "3":
-            print("¡Gracias por jugar con Play.in! Hasta la próxima.")
+            print("¡Gracias por jugar con Play.in!")
             break
         else:
             print("Opción no válida. Intenta nuevamente.")
