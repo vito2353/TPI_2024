@@ -2,10 +2,9 @@ import random
 
 # Función para el juego del Ahorcado
 def jugar_ahorcado():
-    """
-    Función que implementa el juego del Ahorcado.
-    El jugador debe adivinar una palabra letra por letra antes de alcanzar el límite de errores.
-    """
+    
+    #El jugador debe adivinar una palabra letra por letra antes de alcanzar el límite de errores
+    
     print("¡Bienvenido al juego del Ahorcado!")
     palabra = input("Escribe la palabra secreta (nadie más debe verla): ").lower()
     print("\n" * 50)  # Limpia la pantalla para ocultar la palabra ingresada
@@ -38,10 +37,9 @@ def jugar_ahorcado():
 
 # Función para el juego del Número Secreto
 def jugar_numero_secreto():
-    """
-    Función que implementa el juego del Número Secreto.
-    El jugador debe adivinar un número entre 1 y 100.
-    """
+
+    #El jugador debe adivinar un número entre 1 y 100
+    
     print("¡Bienvenido al juego del Número Secreto!")
     print("Estoy pensando en un número entre 1 y 100. ¿Puedes adivinar cuál es?")
     numero_secreto = random.randint(1, 100)
@@ -67,9 +65,9 @@ def jugar_numero_secreto():
 
 # Menú principal
 def menu_principal():
-    """
-    Función principal que permite al jugador elegir entre los dos juegos.
-    """
+    
+   #Permite al jugadro elegir a que juego jugar o salirse
+    
     while True:
         print("""
 **************************************
