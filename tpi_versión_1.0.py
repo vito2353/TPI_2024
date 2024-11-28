@@ -1,6 +1,6 @@
 import random
 
-print("¡Bienvenido a Play.in!")
+print("¡Bienvenido a .Learn!")
 while True:
     print("1. Jugar Ahorcado")
     print("2. Jugar Número Secreto")
