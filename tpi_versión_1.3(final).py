@@ -70,14 +70,13 @@ def menu_principal():
     
     while True:
         print("""
-**************************************
          ¡Bienvenido a .learn!
-**************************************
+
 Elige el juego que quieres jugar:
 1 - Ahorcado
 2 - Número Secreto
 3 - Salir
-**************************************
+
         """)
         opcion = input("Ingresa tu opción: ")
 
