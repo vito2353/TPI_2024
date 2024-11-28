@@ -71,7 +71,7 @@ def menu_principal():
     while True:
         print("""
 **************************************
-         ¡Bienvenido a Play.in!
+         ¡Bienvenido a .learn!
 **************************************
 Elige el juego que quieres jugar:
 1 - Ahorcado
